@@ -76,7 +76,7 @@ For cGAN, follow similar procedure but include labels.
 
 ```python
 labels = torch.randint(0, 4, (batch_size,)) 
-one_hot_labels = torch.nn.functional.one_hot(labels, num_classes=10).float()
+one_hot_labels = torch.nn.functional.one_hot(labels, num_classes=5).float()
 with torch.no_grad():
     generated_images = c_generator(z, one_hot_labels)
 ```
