@@ -1,0 +1,5 @@
+test_file/
+results/
+__pycache__/
+sprites_1788_16x16.npy
+sprite_labels_nc_1788_16x16.npy
