@@ -1,0 +1,11 @@
+torch
+torchvision
+matplotlib
+numpy
+tqdm
+Pillow
+imageio
+opencv-python
+scipy
+psutil
+# you will also need CUDA for hardware acceleration
