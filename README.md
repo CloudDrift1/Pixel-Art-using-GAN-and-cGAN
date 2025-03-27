@@ -81,14 +81,20 @@ with torch.no_grad():
     generated_images = c_generator(z, one_hot_labels)
 ```
 
+
 The loss looks as follows,
+
 ![image](https://github.com/user-attachments/assets/ea0eebe0-7d84-46db-a3fb-470a15b6883d)
+
 
 Sample generated images,
 
+
 ![image](https://github.com/user-attachments/assets/813be689-9e8b-4e76-8b43-1100248a610a)
 
+
 Image from noise process (sample only),
+
 
 ![image](https://github.com/user-attachments/assets/9567aac9-7735-4524-a18e-16f55eef92ba)
 
