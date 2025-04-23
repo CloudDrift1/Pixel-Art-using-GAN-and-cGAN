@@ -33,7 +33,8 @@ The dataset used in this project consists of 16x16 sprites, which are small imag
 
 The images look as follows,
 
-![image](https://github.com/user-attachments/assets/65bf2e27-5554-4b45-bbfb-c9e9e2d9c372)
+![image](data/pixel_art.png)
+
 
 ## Model Architecture
 ### Generator
@@ -84,18 +85,18 @@ with torch.no_grad():
 
 The loss looks as follows,
 
-![image](https://github.com/user-attachments/assets/ea0eebe0-7d84-46db-a3fb-470a15b6883d)
+![image](data/gan_loss.png)
 
 
 Sample generated images,
 
 
-![image](https://github.com/user-attachments/assets/813be689-9e8b-4e76-8b43-1100248a610a)
+![image](data/gan_img.png)
 
 
 Image from noise process (sample only),
 
 
-![image](https://github.com/user-attachments/assets/9567aac9-7735-4524-a18e-16f55eef92ba)
+![image](data/gen_process.png)
 
 
